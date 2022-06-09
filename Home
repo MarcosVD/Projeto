@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VD Game News</title>
+    <link rel="shortcut icon" href="lg.ico" >
+    <link rel="stylesheet" href="style.css" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    
+  </head>
+
+  <body style="background-color: #15151c;">
+    <header>
+      <nav>
+        <a class="logo" href="../Site/home.html">VD GAME NEWS</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="file:///C:/Users/marco/Desktop/M/Trabalho/Site/home.html">Home</a></li>
+          <li><a href="file:///C:/Users/marco/Desktop/M/Trabalho/Site/login.html">LogIn</a></li>
+          <li><a href="file:///C:/Users/marco/Desktop/M/Trabalho/Site/Sobre.html">Sobre</a></li>
+          <li><a href="mailto: contatovdreal@gmail.com">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="header-site">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 class="text-center">BEM-VINDO AO VD GAME NEWS</h1>
+            <br>
+            <p class="lead text-center">SEU PORTAL DE NOTICIAS RELACIONADO A GAMES</p>
+            <br>
+            <br>
+            <a href="file:///C:/Users/marco/Desktop/M/Trabalho/Site/login.html" class="text-center">Cadastre-se</a>
+            <p class="lead text-center">PARA OBTER UMA MELHOR EXPERIENCIA</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content-site">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 class="text-center">NOTICIAS</h1>
+            <p class="text-center">DESTAQUES DA SEMANA</p>
+            <br>
+          </div>
+        </div>
+        <br>
+        <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="ns.jpg" style="width:100%">
+      <div class="text-center">Mais um dia, Mais um jogo da NINTENDO que não tem nem legenda em português.</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="ps5.jpg" style="width:100%">
+      <div class="text-center">Playstation pretende lançar mais dos seus Ex-Exclusivos para PC</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="mc.jpg" style="width:100%">
+      <div class="text-center">Confirmado! Minecraft é o jogo preferido da Professora Erica</div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+    </section>
+    <section class="img-site">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 class="text-center">SEJA MEMBRO!</h1>
+            <br>
+            <p class="lead text-center">AO CRIAR UMA CONTA VOCÊ CONCORRE A PRÊMIOS TODA SEMANA E É NOTIFICADO TODA VEZ QUE SAIR UMA INFORMAÇÃO DO MUNDO DOS GAMES, PODENDO PERSONALIZAR POR CONTEUDO DE INTERESSE E ASSIM FICAR POR DENTRO DO QUE ROLA COM SEU GAME FAVORITO!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer-site">
+      <div class="container">
+        <div class="col-xs-12">
+          <p class="text-center">Direitos reservados</p>
+          <br>
+          <a href="mailto: contatovdreal@gmail.com" class="text-center">E-Mail: contatovdreal@gmail.com</a>
+          <p class="text-center">feito por: MARCOS HENRIQUE</p>
+        </div>
+      </div>
+    </section>
+    <main></main>
+    <script src="mobile-navbar.js"></script>
+  </body>
+</html>
